@@ -218,6 +218,16 @@ $ fisher install blackjid/plugin-kubectl
 | kdpvc        | `kubectl describe pvc`                               |
 | kdelpvc      | `kubectl delete pvc`                                 |
 
+### Daemonset management.
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgds         | `kubectl get pvc`                                    |
+| kgdsa        | `kubectl get pvc --all-namespaces`                   |
+| kgdsw        | `kubectl get pvc --watch`                            |
+| keds         | `kubectl edit pvc`                                   |
+| kdds         | `kubectl describe pvc`                               |
+| kdelds       | `kubectl delete pvc`                                 |
 
 # Credits
 
